@@ -1,0 +1,24 @@
+row col xsize ysize type xoffset yoffset
+7
+21
+0 0 1 1 1 0 0 #1 grass + dirt
+1 0 1 1 1 0 0 #2 dirt below grass
+1 1 1 1 1 0 0 #3 dirt
+0 1 1 1 4 0 0 #4 grass
+2 0 1 1 1 0 0 #5 grass + dirt below and above
+2 0 1 1 4 0 0 #6 grass + dirt below and above (can fall through)
+0 0 1 1 4 0 0 #7 grass + dirt (can fall through)
+1 0 1 1 0 0 0 #8 dirt below grass (can fall through)
+1 1 1 1 0 0 0 #9 dirt (can fall through)
+0 2 1 1 2 0 0 #10 grass slope /
+1 2 1 1 1 0 0 #11 grass + dirt slope /
+2 2 1 1 1 0 0 #12 dirt below grass slope /
+0 3 1 1 3 0 0 #13 dirt slope \
+1 3 1 1 1 0 0 #14 dirt + grass slope \
+3 0 1 1 4 0 0 #15 wood floor
+3 1 1 1 5 0 0 #16 wood break tile
+4 0 1 1 0 0 0 #17 sign
+4 1 2 1 0 2 1 #18 fountain
+5 0 2 1 0 -2 1 #19 blue flower
+5 2 2 1 0 -5 1 #20 pink flower
+0 4 7 9 0 -27 1 #21 tree
